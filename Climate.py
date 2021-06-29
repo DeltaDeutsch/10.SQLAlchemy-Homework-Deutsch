@@ -121,5 +121,6 @@ def temp_range_start(start):
     session.close()    
     return jsonify(return_list)
 
-#if __name__ == "__main__":
-    #app.run(debug=True, host='0.0.0.0', port=5007)
+if __name__ == "__main__":
+    app.run(debug=True)
+    print("_main_")
